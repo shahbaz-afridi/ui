@@ -23,7 +23,7 @@ class _MyappState extends State<Myapp> {
           appBar: AppBar(),
           body: Center(child: Text(x.toString(),style: TextStyle(fontWeight: FontWeight.w300,fontSize: 20),)),
           floatingActionButton: FloatingActionButton(
-            child: Icon(Icons.add),
+            child: const Icon(Icons.add),
             onPressed: () {
               x++;
               // y++;
